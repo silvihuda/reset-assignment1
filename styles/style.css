@@ -7,6 +7,10 @@
     color: #0D1321;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .section-title {
     font-size: 46px;
     font-weight: 760px;
@@ -15,6 +19,7 @@
 .section-description {
     font-size: 14px;
     font-weight: 400;
+    line-height: 25px;
 }
 
 /* banner styles */
@@ -22,10 +27,11 @@
     height: 619px;
     background-image: url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .banner-content {
-    width: 948px;
+    max-width: 948px;
     margin: 0 auto;
     text-align: center;
 }
@@ -38,4 +44,43 @@
     font-size: 18px;
     font-weight: 500;
     margin-top: 28px;
+}
+
+/* main styles */
+main {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+main section{
+    margin-top:70px ;
+    margin-bottom: 86px;
+}
+/* why web styles */
+.motive-container {
+    display: flex;
+    gap: 80px;
+    margin-top: 46px;
+}
+
+.motive-container-1 {
+    display: flex;
+    gap: 28px;
+    margin-top: 46px;
+}
+
+.motive-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #0D1321B3;
+}
+
+.motive-description {
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.web-need {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding:40px 70px;
 }
