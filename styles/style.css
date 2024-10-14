@@ -57,7 +57,7 @@
 
 /* main styles */
 main {
-    max-width: 1080px;
+    max-width: 1083px;
     margin: 0 auto;
 }
 
@@ -145,7 +145,45 @@ main iframe {
 .card-title {
     font-size: 20px;
 }
-.card a{
+
+.card a {
     font-weight: 700;
     color: #0D1321;
+}
+
+/* support section styles */
+.support {
+    height: 297.4px;
+    border-radius: 16px;
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    padding: 40px 0;
+}
+
+.support-content {
+    max-width: 992px;
+    margin: 0 auto;
+    text-align: center;
+    height: 176px;
+    /* background: rgba(0, 0, 0, 0.2); */
+}
+
+.text-white {
+    color: white;
+}
+
+.support-content input[type="text"] {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 50%;
+    padding: 15px;
+}
+
+.support-content input[type="submit"] {
+    padding: 14px 18px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+    
 }
