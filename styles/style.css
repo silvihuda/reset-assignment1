@@ -78,9 +78,25 @@ main section{
     font-weight: 400;
     line-height: 25px;
 }
-
+.motive-button {
+    padding: 10px 16px;
+    font-size: 18px;
+}
 .web-need {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     padding:40px 70px;
+}
+/* inspiration section style */
+.padding{
+    padding: 0 130px;
+}
+.inspire-video{
+    margin-top: 46px;
+    padding: 30px 0;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+}
+main iframe{
+    border-radius: 16px;
 }
